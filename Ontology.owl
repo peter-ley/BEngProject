@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2022/2/Ontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2022/2/Ontology.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2022/2/DraftOntology1.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accelerometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Actuator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bluetooth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dimensions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ethernet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gyroscope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IR_Comms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IR_Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Module"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#USB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wheel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#x-"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#x_dim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#x_pos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#x_rot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#y-"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#y_dim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#y_pos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#y_rot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#z-"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#z_dim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#z_pos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#z_rot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#x+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#y+"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#z+"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Actuator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pi-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pi-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pi-3"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accelerometer"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Actuator"/>
+        <Class IRI="#Module"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bluetooth"/>
+        <Class IRI="#Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camera"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Communication"/>
+        <Class IRI="#Module"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dimensions"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ethernet"/>
+        <Class IRI="#Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gyroscope"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IR_Comms"/>
+        <Class IRI="#Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IR_Sensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microphone"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Module"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#USB"/>
+        <Class IRI="#Communication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wheel"/>
+        <Class IRI="#Actuator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#x-"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#x_dim"/>
+        <Class IRI="#Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#x_pos"/>
+        <Class IRI="#Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#x_rot"/>
+        <Class IRI="#Orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#y-"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#y_dim"/>
+        <Class IRI="#Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#y_pos"/>
+        <Class IRI="#Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#y_rot"/>
+        <Class IRI="#Orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#z-"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#z_dim"/>
+        <Class IRI="#Dimensions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#z_pos"/>
+        <Class IRI="#Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#z_rot"/>
+        <Class IRI="#Orientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#x+"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#y+"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#z+"/>
+        <Class IRI="#Movement"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#Actuator"/>
+            <Class IRI="#Wheel"/>
+        </ObjectAllValuesFrom>
+        <NamedIndividual IRI="#pi-1"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#pi-1"/>
+        <NamedIndividual IRI="#pi-2"/>
+        <NamedIndividual IRI="#pi-3"/>
+    </DifferentIndividuals>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Actuator"/>
+        <Class IRI="#Module"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Sensor"/>
+        <Class IRI="#Module"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Actuator"/>
+        <Class IRI="#Actuator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Sensor"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
