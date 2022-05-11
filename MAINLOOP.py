@@ -113,7 +113,7 @@ def recieveCompiledCode():
     while True:
         sIn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sIn.bind((devices[0].getIP(),8000))
-        sIn.listen() # Accepts up to 6 simultaneous connections
+        sIn.listen()
         connection, address = sIn.accept()
         code = connection.recv(1024)
         connection.close()
